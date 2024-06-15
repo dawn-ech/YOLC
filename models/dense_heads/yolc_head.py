@@ -93,7 +93,7 @@ class YOLCHead(BaseDenseHead, BBoxTestMixin):
             nn.ConvTranspose2d(in_channel, self.num_classes * 8, 4, stride=2, padding=1, output_padding=0),
             nn.ReLU(inplace=True),
             nn.ConvTranspose2d(self.num_classes * 8, self.num_classes * 8, 4, stride=2, padding=1, output_padding=0),
-            nn.Conv2d(self.num_classes * 8, out_channel, kernel_size=1, groups=self.num_classes) # 分组卷积
+            nn.Conv2d(self.num_classes * 8, out_channel, kernel_size=1, groups=self.num_classes) # Group Conv
         )
         return last_layer
 
