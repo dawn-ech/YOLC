@@ -7,7 +7,7 @@ import numpy as np
 import torch
 
 from mmdet.models.utils import gaussian_radius, gen_gaussian_target
-from yolc_head import YOLCHead
+from models.dense_heads.yolc_head import YOLCHead
 
 num_classes = 10
 
