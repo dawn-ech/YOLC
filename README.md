@@ -14,6 +14,11 @@ This repo is implemented based on [mmdetection](https://github.com/open-mmlab/mm
 	- mmdetection == 2.26.0 (>=2.17.0, <3.0.0)
 	- kornia == 0.6.9
 
+##  Data preparation
+```
+python gen_crop.py
+```
+
 ##  Train
 #### Training on a single GPU
 ```
@@ -23,6 +28,12 @@ python train.py configs/yolc.py
 #### Training on multiple GPUs
 ```
 ./dist_train.sh configs/yolc.py <your_gpu_num>
+```
+
+##  Eval
+```
+# set saved_crop to 0,1,2,3 corresponding to LSM (k=saved_crop)
+python eval_yolc.py
 ```
 
 ## Citation
