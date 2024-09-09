@@ -15,6 +15,7 @@ This repo is implemented based on [mmdetection](https://github.com/open-mmlab/mm
 	- kornia == 0.6.9
 
 ##  Data preparation
+Use gen_crop.py to generate VisDrone train dataset. You can directly use [annotations/VisDrone2019-DET_val_coco.json](annotations/VisDrone2019-DET_val_coco.json) for its val dataset.
 ```
 python gen_crop.py
 ```
