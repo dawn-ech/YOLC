@@ -14,6 +14,9 @@ This repo is implemented based on [mmdetection](https://github.com/open-mmlab/mm
 	- mmdetection == 2.26.0 (>=2.17.0, <3.0.0)
 	- kornia == 0.6.9
 
+## Checkpoint
+We provide YOLC's checkpoint file. Please download model weights at the [Link](https://drive.google.com/file/d/1WDd77NYf8EXNaWKJuV9LfqCT9zdHajwG/view?usp=sharing).
+
 ##  Data preparation
 Use gen_crop.py to generate VisDrone train dataset. You can directly use [annotations/VisDrone2019-DET_val_coco.json](annotations/VisDrone2019-DET_val_coco.json) for its val dataset.
 ```
