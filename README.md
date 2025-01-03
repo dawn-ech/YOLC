@@ -47,6 +47,9 @@ If you find our paper is helpful, please consider citing our paper:
   title={YOLC: You Only Look Clusters for Tiny Object Detection in Aerial Images},
   author={Liu, Chenguang and Gao, Guangshuai and Huang, Ziyue and Hu, Zhenghui and Liu, Qingjie and Wang, Yunhong},
   journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={25},
+  number={10},
+  pages={13863-13875},
   year={2024},
   publisher={IEEE}
 }
